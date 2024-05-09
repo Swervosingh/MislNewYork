@@ -1,0 +1,35 @@
+/* PaymentForm.css */
+.info-section {
+    background-color: #000000; /* Black background color */
+    border-radius: 15px; /* Curved edges */
+    padding: 20px; /* Padding around the content */
+    margin-bottom: 20px; /* Margin between sections */
+  }
+  
+  .info-section h3 {
+    color: #ffffff; /* White text color for section headings */
+  }
+  
+  .info-section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .info-section input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* White box shadow when input is focused */
+  }
+  
+  .info-section .error {
+    color: #ff0000; /* Red color for error messages */
+    margin-top: 5px; /* Margin above error messages */
+  }
+  .info-container {
+    background-color: #fff !important;
+    border-radius: 40px !important;
+    padding: 20px !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
